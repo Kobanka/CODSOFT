@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn1{
+    @apply px-4 py-2 font-bold text-white uppercase transition-all duration-300 bg-ClearBlue rounded-md shadow outline-none hover:text-ClearBlue hover:bg-white hover:shadow-md focus:outline-none ease-in;
+}
+
+.navItem{
+    @apply hover:text-ClearBlue;
+}
+
+.navItemF{
+    @apply  transition-all duration-300 hover:translate-x-5 ease-in;
+}
+
+.showMenu{
+    @apply top-[91.7px] left-0 w-full rounded-b-2xl;
+}
+
+.hideMenu{
+    padding: 2rem 1.5rem 4rem;
+    box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+    transition: .3s;
+    @apply -top-[500%] left-0 w-full rounded-b-2xl;
+}
+.menu{
+    @apply translate-y-1.5 rotate-45;
+}
+.times{
+    @apply w-10 -translate-y-1.5 -rotate-45;
+}
+
+.hero {
+    /* background:url('https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+    background:url('https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.scrolled{
+    @apply md:bg-black md:opacity-90;
+}
+
+.error{
+    @apply text-sm text-red-600 
+}
+
+.active{
+    @apply bg-blue-800 text-white rounded-r-lg border-blue-500
+}

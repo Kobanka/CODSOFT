@@ -8,7 +8,7 @@ Here are some details about the company:
 - Email: {{ $company->email }}
 - Posted Job Title: {{ $listing->title }}
 
-<x-mail::button :url="url('http://phpstack-1090469-3815834.cloudwaysapps.com/jobs')">
+<x-mail::button :url="env('APP_URL') . '/jobs">
 View Jobs
 </x-mail::button>
 

@@ -3,7 +3,7 @@
 
 Your job posting has been successfully submitted and is now live on our job portal.
 
-<x-mail::button :url="env('APP_URL') . '/jobs">
+<x-mail::button :url="''">
 View Jobs
 </x-mail::button>
 

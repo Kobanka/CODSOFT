@@ -3,7 +3,7 @@
 
 Your job application has been successfully submitted.
 
-<x-mail::button :url="''">
+<x-mail::button :url="url('http://phpstack-1090469-3815834.cloudwaysapps.com/jobs')">
 View Jobs
 </x-mail::button>
 

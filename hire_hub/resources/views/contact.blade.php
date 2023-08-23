@@ -14,7 +14,7 @@
               +212 0632437481
             </p>
             <p class="mb-2 text-ClearBlue">
-              anicetkobanka@gmail.com
+              hirehub05@gmail.com
             </p>
           </div>
           <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">

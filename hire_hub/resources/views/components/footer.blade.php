@@ -79,7 +79,7 @@
                     </li>
                     <li class="mt-3">
                         <p class="text-gray-500 cursor-pointer hover:text-ClearBlue">E-mail</p>
-                        <a href="mailto: anicetkobanka@gmail.com.com" target="blank">anicetkobanka@gmail.com</a>
+                        <a href="mailto: hirehub05@gmail.com" target="blank">hirehub05@gmail.com</a>
                     </li>
                     <li class="mt-3">
                         <p class="text-gray-500 cursor-pointer hover:text-ClearBlue">Phone</p>

@@ -3,7 +3,7 @@
 
 Your job posting has been successfully submitted and is now live on our job portal.
 
-<x-mail::button :url="''">
+<x-mail::button :url="'https://anicetkobanka.online/jobs'">
 View Jobs
 </x-mail::button>
 

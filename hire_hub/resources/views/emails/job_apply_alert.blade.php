@@ -9,7 +9,7 @@ Here are some details about the candidate:
 - Email: {{ $candidate->email }}
 - Applied Job Title: {{ $listing->title }}
 
-<x-mail::button :url="''">
+<x-mail::button :url="'https://anicetkobanka.online/jobs'">
 View Jobs
 </x-mail::button>
 

@@ -3,7 +3,7 @@
 
 Your job application has been successfully submitted.
 
-<x-mail::button :url="''">
+<x-mail::button :url="'https://anicetkobanka.online/jobs'">
 View Jobs
 </x-mail::button>
 

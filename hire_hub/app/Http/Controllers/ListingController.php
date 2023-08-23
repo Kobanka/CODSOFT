@@ -135,15 +135,24 @@ class ListingController extends Controller
                     'slug' => Str::slug($request->title) . '-' . rand(1111, 9999),
                     'is_active' => true
                 ]);
+            
+            foreach (explode(',', $request->tag) as $requestTag) {
+                $trimmedTag = trim($requestTag);
 
-            foreach(explode(',', $request->tag) as $requestTag) {
-                $tag = Tag::firstOrCreate([
-                    'slug' => Str::slug(trim($requestTag))
-                ], [
-                    'name' => ucwords(trim($requestTag))
-                ]);
+                // Check if the tag already exists
+                $tag = Tag::where('slug', Str::slug($trimmedTag))->first();
 
-                $tag->listings()->attach($listing->id);
+                if (!$tag) {
+                    $tag = Tag::create([
+                        'slug' => Str::slug($trimmedTag),
+                        'name' => ucwords($trimmedTag)
+                    ]);
+                }
+
+                // Attach the tag to the listing if it's not already attached
+                if (!$listing->tags->contains($tag->id)) {
+                    $tag->listings()->attach($listing->id);
+                }
             }
 
             Mail::to($company->email)->send(new JobPosted($company));

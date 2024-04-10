@@ -1,3 +1,3 @@
 # CODSOFT
 
-### This repos contains my internsip projects at **CodeSoft**. The projects are mainly a Job portal website named Hire Hub and a Tribune Webpage dedicated to the genius Alan Turing.
+### Welcome to the repository showcasing my internship projects at **CodeSoft**. Here, you'll find two significant endeavors: Hire Hub, a job portal website, and a dedicated Tribune Webpage honoring the brilliance of Alan Turing.
